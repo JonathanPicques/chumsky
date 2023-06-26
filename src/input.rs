@@ -640,7 +640,7 @@ where
 {
 }
 
-/// An input wrapper that provides slices via the given closure. See [`Input::with_slices`].
+/// An input wrapper that provides slices via the given closure. See [`Input::with_slice`].
 #[derive(Copy, Clone)]
 pub struct WithSlice<S, I> {
     input: I,
